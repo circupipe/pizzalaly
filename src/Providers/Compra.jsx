@@ -46,7 +46,24 @@ export const CompraProvider = ({ children }) => {
                 }
             }
             
-    
+            // Si es un producto individual
+            const productoExistente = prevCarrito.find(item => 
+                item.nombre === producto.nombre
+            );
+
+            if (productoExistente) {
+                MostrarMensaje();
+                return prevCarrito;
+            }
+
+            // Add new product
+            return [...prevCarrito, {
+                nombre: producto.nombre,
+                cantidad: 1,
+                precio: producto.precio
+            }];
+        });
+    }
 
     function BorrarProducto(producto) {
         setCarrito((prevLista) => prevLista.filter((elemento) => elemento !== producto));
@@ -64,5 +81,5 @@ export const CompraProvider = ({ children }) => {
         <CompraContext.Provider value={{ productos, setProductos, carrito, AñadirCarrito, BorrarProducto, mensaje }}>
             {children}
         </CompraContext.Provider>
-    );
-};
+    )
+} // Remove semicolon here
