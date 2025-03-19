@@ -1,0 +1,40 @@
+{
+  "promociones": [
+    {
+      "id": "p1",
+      "nombre": "Promo 1",
+      "descripcion": "3 pizzas de muzzarella",
+      "precio": 21000
+    },
+    {
+      "id": "p2",
+      "nombre": "Promo 2",
+      "descripcion": "1 pizza de muzzarella y 6 empanadas",
+      "precio": 15000
+    },
+    {
+      "id": "p3",
+      "nombre": "Promo 3",
+      "descripcion": "1 pizza de muzzarella y 1 pizza de jamón y morrones",
+      "precio": 16000
+    },
+    {
+      "id": "p4",
+      "nombre": "Promo 4",
+      "descripcion": "1 pizza de muzzarella y 1 docena de empanadas",
+      "precio": 21000
+    },
+    {
+      "id": "p5",
+      "nombre": "Promo 5",
+      "descripcion": "1 pizza de muzzarella, 1 pizza de jamón y morrones, y 1 pizza napolitana",
+      "precio": 25000
+    },
+    {
+      "id": "p6",
+      "nombre": "Promo 6",
+      "descripcion": "1 pizza de muzzarella y 1 fugazzetta (rellena de jamón y queso)",
+      "precio": 19000
+    }
+  ]
+}

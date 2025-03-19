@@ -1,0 +1,51 @@
+:root {
+    --color-1: rgb(255, 255, 255);
+    --bg-color-1: #368882;
+    --bg-color-2: ;
+    --bg-color-3: ;
+
+    --button-1:#368882;
+    --button-pressed-1: #296662;
+
+
+    --black-color: #2c2c2c;  
+    --white-color: #f5f5f5; 
+
+  
+    /* --------------------- */
+
+    --select-color:#00ff0d;
+
+    
+    /* --------------------- */
+
+    --radius-1: 4px;
+    --radius-2: 16px;
+    --radius-3: 32px;
+    --radius-4: 40px;
+    --radius-100: 50%;
+
+    /* --------------------- */
+
+    --distance-1:  0.25rem; /* 16px = 1rem */
+    --distance-2:  0.5rem; /* 16px = 1rem */
+    --distance-3:  1rem; /* 16px = 1rem */
+    --distance-4:  2rem; /* 16px = 1rem */
+    --distance-5:  2.5rem; /* 16px = 1rem */
+    --distance-6:  3.75rem; /* 16px = 1rem */
+    --distance-7:  4.375rem; /* 16px = 1rem */
+
+    /* --------------------- */
+
+    --size-1: 1rem;
+    --size-2: 1.25rem;
+    --size-3: 1.5rem;
+    --size-4: 1.65rem;
+    --size-5: 2rem;
+    --size-6: 2.5rem;
+
+    --size-max-1: 2.85rem;
+    --size-max-2: 3.5rem;
+    --size-max-3: 4rem;
+    
+}

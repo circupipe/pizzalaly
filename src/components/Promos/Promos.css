@@ -1,0 +1,132 @@
+.promos-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.promos-titulo {
+    font-size: 2rem;
+    color: #368882;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.promos-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 0 15px;
+}
+
+.promo-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: transform 0.2s ease;
+    min-height: 250px;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.promo-boton {
+    background: #368882;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: .9rem;
+    font-weight: 600;
+    transition: background 0.2s ease;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.promo-nombre{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.promo-descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: .9rem;
+}
+
+.promo-precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #368882;
+    margin-top: auto;
+}
+
+.promo-boton {
+    background: #368882;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: .8rem;
+    font-weight: 600;
+    transition: background 0.2s ease;
+
+}
+
+.promo-boton:hover {
+    background: #2a6864;
+}
+
+/* Responsive breakpoints */
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .promos-container {
+        padding: 15px;
+    }
+    
+    .promos-titulo {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .promos-lista {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 0 10px;
+    }
+    
+    .promo-card {
+        min-height: 200px;
+        padding: 15px;
+        padding-bottom: 55px;
+    }
+
+    .promo-boton {
+        bottom: 15px;
+        left: 15px;
+        right: 15px;
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}

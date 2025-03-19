@@ -1,0 +1,130 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Pizza Muzzarella",
+      "descripcion": "Muzzarella, Salsa de tomate.",
+      "precio": 7500
+    },
+    {
+      "id": "2",
+      "nombre": "Pizza Jamón y Morrones",
+      "descripcion": "Muzzarella, Jamón, Morrones.",
+      "precio": 9500
+    },
+    {
+      "id": "3",
+      "nombre": "Pizza Napolitana",
+      "descripcion": "Muzzarella, Salsa de tomate, Rodajas de tomate fresco, Ajo.",
+      "precio": 9000
+    },
+    {
+      "id": "4",
+      "nombre": "Pizza Napolitana c/ Jamón",
+      "descripcion": "Muzzarella, Salsa de tomate, Rodajas de tomate fresco, Ajo, Jamón.",
+      "precio": 10000
+    },
+    {
+      "id": "5",
+      "nombre": "Pizza Fugazzeta",
+      "descripcion": "Muzzarella, Cebolla caramelizada.",
+      "precio": 12500
+    },
+    {
+      "id": "6",
+      "nombre": "Pizza Muzza c/ Huevo",
+      "descripcion": "Muzzarella, Huevo.",
+      "precio": 8500
+    },
+    {
+      "id": "7",
+      "nombre": "Pizza Calabresa",
+      "descripcion": "Muzzarella, Calabresa.",
+      "precio": 9500
+    },
+    {
+      "id": "8",
+      "nombre": "Empanada Carne",
+      "descripcion": "Carne.",
+      "precio": 1500
+    },
+    {
+      "id": "9",
+      "nombre": "Empanada Pollo",
+      "descripcion": "Pollo.",
+      "precio": 1500
+    },
+    {
+      "id": "10",
+      "nombre": "Empanada Mix de Verduras",
+      "descripcion": "Mix de verduras.",
+      "precio": 1500
+    },
+    {
+      "id": "11",
+      "nombre": "Empanada Jamón y Queso",
+      "descripcion": "Jamón, Queso.",
+      "precio": 1500
+    },
+    {
+      "id": "12",
+      "nombre": "Docena de Empanadas",
+      "descripcion": "12 Empanadas variadas.",
+      "precio": 15000
+    },
+    {
+      "id": "13",
+      "nombre": "1/2 Docena de Empanadas",
+      "descripcion": "6 Empanadas variadas.",
+      "precio": 8000
+    },
+    {
+      "id": "14",
+      "nombre": "Mila Simple",
+      "descripcion": "Milanesa, Papas fritas.",
+      "precio": 7500
+    },
+    {
+      "id": "15",
+      "nombre": "Mila Napolitana",
+      "descripcion": "Milanesa, Salsa de tomate, Muzzarella, Rodajas de tomate fresco, Papas fritas.",
+      "precio": 9000
+    },
+    {
+      "id": "16",
+      "nombre": "Mila a Caballo",
+      "descripcion": "Milanesa, Huevos fritos, Papas fritas.",
+      "precio": 8500
+    },
+    {
+      "id": "17",
+      "nombre": "Mila c/ Cheddar y Verdeo",
+      "descripcion": "Milanesa, Cheddar, Verdeo, Papas fritas.",
+      "precio": 9500
+    },
+    {
+      "id": "18",
+      "nombre": "Papas Fritas (Simple)",
+      "descripcion": "Papas fritas.",
+      "precio": 5000
+    },
+    {
+      "id": "19",
+      "nombre": "Papas Fritas c/ Cheddar y Verdeo",
+      "descripcion": "Papas fritas, Cheddar, Verdeo.",
+      "precio": 6500
+    },
+    {
+      "id": "20",
+      "nombre": "Papas Fritas c/ Huevos Fritos",
+      "descripcion": "Papas fritas, Huevos fritos.",
+      "precio": 6500
+    },
+    {
+      "id": "21",
+      "nombre": "Tortilla de Papa",
+      "descripcion": "Papa, Huevos.",
+      "precio": 6000
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+peticiones cliente 0001 piza laly
+solo delivery (mantener constantemente la peticion de direccion)
+pedido minimo 5000 pesos para delivery
+si es tranferencia, que le aparezca el alias con el nombre del titular, en la pagina y en el mensaje
+hacer categorias, pizza, empanadas, milanesas, tartas
+especificar que gustos de empanadas.
+lunes y martes no funcionaaaaaaaaa hoy no trabajamos!
+cartel del aliass
+que aparezca el precio total
+
+
+aronium lite
+generador de tickets
+
+
+cambiar colores y logo
+
+
